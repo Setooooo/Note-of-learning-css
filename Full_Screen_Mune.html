@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/Full_Screen_Mune.css" type="text/css" rel="stylesheet">
+    <title>Full_Screen_Mune</title>
+</head>
+<body>
+    <div id="log" onclick="menuToggle()"></div>
+    <div id="menu">
+        <ul>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">twitter</a></li>
+            <li><a href="#">ticktick</a></li>
+            <li><a href="#">notion</a></li>
+            <li><a href="#">edge</a></li>
+            <li><a href="#">chrom</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function menuToggle(){
+            var nav=document.getElementById('menu');
+            nav.classList.toggle('active');
+            var icon=document.getElementById('log');
+            icon.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
